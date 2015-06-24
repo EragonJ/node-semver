@@ -1199,7 +1199,3 @@ function outside(version, range, hilo, loose) {
   }
   return true;
 }
-
-// Use the define() function if we're in AMD land
-if (typeof define === 'function' && define.amd)
-  define(exports);
